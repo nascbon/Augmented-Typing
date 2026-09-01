@@ -7,7 +7,7 @@ outlets = 5;
 setinletassist(0,  "/key/a");
 setinletassist(1,  "/key/b");
 setoutletassist(0, "pattrstorage recall");
-setoutletassist(1, "ampplitude");
+setoutletassist(1, "amplitude");
 setoutletassist(2, "gate");
 setoutletassist(3, "AF line~");
 setoutletassist(4, "AH ine~");
