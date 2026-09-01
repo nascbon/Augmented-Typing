@@ -19,8 +19,8 @@ python3 augmented-typing-code.py
 3. Ctrl+C stops the bridge 
 
 ## Debugging
-- Wooting Analog not found --> wrong path in 'SDK_LIB'
+- Wooting Analog not found --> wrong path in `SDK_LIB`
 - bridge prints -1 --> no device found
-- No Audio --> audio engine is off, or 'udpreceive 7400' doesn't match 'OSC_PORT'
+- No Audio --> audio engine is off, or `udpreceive 7400` doesn't match `OSC_PORT`
 
 
