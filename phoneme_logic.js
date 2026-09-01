@@ -120,7 +120,7 @@ function makeEnv(idx, init) {
         st.segs = segs; st.i = 0; st.left = 0;
         st.task = new Task(st.tick, this);
         st.task.interval = ENV_TICK;
-        st.tick();                       // primo campione subito, senza attendere
+        st.tick();                      
         st.task.repeat();
     };
 
@@ -129,13 +129,13 @@ function makeEnv(idx, init) {
     return st;
 }
 
-var envAF = makeEnv(3, 1.0);   // riposo 1: lascia passare tutto l'AF del preset
-var envAH = makeEnv(4, 0.0);   // riposo 0: nessuna aspirazione
+var envAF = makeEnv(3, 1.0);   
+var envAH = makeEnv(4, 0.0);  
 
 
-// ===========================================================================
-// HELPER
-// ===========================================================================
+
+// Helper
+
 
 function now() { return (new Date()).getTime(); }
 
